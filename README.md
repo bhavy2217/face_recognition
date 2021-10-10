@@ -1,13 +1,10 @@
 # Face Recognition
 
-_You can also read a translated version of this file [in Chinese 简体中文版](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean 한국어](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese 日本語](https://github.com/m-i-k-i/face_recognition/blob/master/README_Japanese.md)._
-
 Recognize and manipulate faces from Python or from the command line with
 the world's simplest face recognition library.
 
 Built using [dlib](http://dlib.net/)'s state-of-the-art face recognition
-built with deep learning. The model has an accuracy of 99.38% on the
-[Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/) benchmark.
+built with deep learning. The model has an accuracy of 99.38% on the Recognization.
 
 This also provides a simple `face_recognition` command line tool that lets
 you do face recognition on a folder of images from the command line!
@@ -23,8 +20,6 @@ you do face recognition on a folder of images from the command line!
 
 Find all the faces that appear in a picture:
 
-![](https://cloud.githubusercontent.com/assets/896692/23625227/42c65360-025d-11e7-94ea-b12f28cb34b4.png)
-
 ```python
 import face_recognition
 image = face_recognition.load_image_file("your_file.jpg")
@@ -34,8 +29,6 @@ face_locations = face_recognition.face_locations(image)
 #### Find and manipulate facial features in pictures
 
 Get the locations and outlines of each person's eyes, nose, mouth and chin.
-
-![](https://cloud.githubusercontent.com/assets/896692/23625282/7f2d79dc-025d-11e7-8728-d8924596f8fa.png)
 
 ```python
 import face_recognition
