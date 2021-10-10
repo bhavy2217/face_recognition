@@ -341,7 +341,3 @@ If you want to create a standalone executable that can run without the need to i
 
  There are also [several prebuilt Docker images.](docker/README.md)
  
-## Having problems?
-
-If you run into problems, please read the [Common Errors](https://github.com/bhavy_2217/face_recognition/wiki/Common-Errors) section of the wiki before filing a github issue.
- 
